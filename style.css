@@ -8,6 +8,7 @@
 } */
 *{
     max-width: 1920px;
+    font-family: 'Roboto', sans-serif;
 }
 .bg-gray {
   background: #efefef;
@@ -21,6 +22,14 @@ line-height: 16px;
 color: #333333;
 
 }
+.fw-20{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
 .fw-19{
     font-family: 'Roboto';
     font-style: normal;
@@ -28,6 +37,14 @@ color: #333333;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+}
+.fw-700{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
 }
 .top-line {
   height: 50px;
@@ -74,14 +91,14 @@ margin: 0 auto;
 .content-2{
     display: flex;
     justify-content: center;
-    width: 258px;
-    margin-left: 405px;
+    /* margin-left: 405px; */
     height: 80px;
     padding-top: 20px;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     margin: 0 auto;
 }
 .content-2 > span{
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -94,20 +111,17 @@ margin: 0 auto;
     margin-top: 20px;
     margin-right: 515px;
 
-
-
- 
 }
 .tell{
     display: flex;
     padding-top: 50px;
-padding-bottom: 50px;
-text-decoration: none;
+    
+    text-decoration: none;
     font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
-padding-right: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-right: 40px;
 
 }
 .btn{
@@ -122,6 +136,7 @@ padding-top: 12px;
 padding-bottom: 13px;
 padding-right: 27px;
 padding-left: 26px;
+margin-top: 40px;
 
 }
 
@@ -130,4 +145,35 @@ padding-left: 26px;
     padding-top: 30px;
     padding-right: 40px;
     padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sale{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0 auto;
+}
+.sale > h1{
+    position: absolute;
+    margin-left: 405px; 
+    margin-top: 192px;
+    margin-bottom: 50px;
+}
+.sale > p{
+    position: absolute;
+    margin-left: 405px; 
+    margin-top: 286px;
+    width: 305px;
+}
+.sale > a{
+    position: absolute;
+    margin-left: 405px; 
+    margin-top: 371px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
 }
