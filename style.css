@@ -446,11 +446,12 @@ padding-bottom: 30px;
     color: #828282;
     padding-top: 25px; 
     display: flex;
-    justify-content: space-between;
+
 }
+
 .footer-footer > a > span{
         color: #828282;
-        /* margin-left: 595px; */
+        margin-left: 595px;
 }
 .footer-footer > a {
 text-decoration: none;
